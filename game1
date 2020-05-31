@@ -82,7 +82,7 @@ class Student extends Human{
     }
 }
 
-$a = new Human('male', 'Jack', '20','5','150');
+ $a = new Human('male', 'Jack', '20','5','150');
 $b = new Student('male', 'Stas', '20','25','150', '99');
 $b->toWork();
 $b->toEat();
